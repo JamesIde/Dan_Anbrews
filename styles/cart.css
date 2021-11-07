@@ -1,0 +1,94 @@
+.cart-page{
+    margin:80px auto;
+    width: 90%;
+
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin:auto;
+}
+.cart-info{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 60%;
+}
+
+th{
+    text-align: left;
+    padding: 5px;
+    color: white;
+    font-weight: normal;
+    background: #DD4124;
+}
+td{
+    padding: 10px 5px;
+}
+td input{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+td a{
+    color: #ff523b;
+    font-size: 12px;
+    text-decoration: none;
+}
+td img{
+    width: 80px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.totalPrice{
+    display:flex;
+    justify-content:flex-end;
+}
+
+.totalPrice table{	
+    border-top: 3px solid #ff523b;
+    width: 100%;
+    max-width:350px;
+    position: absolute;
+}
+
+td:last-child{
+    text-align: right;
+}
+th:last-child{
+    text-align: right;
+}
+
+h1{
+    text-align: center;
+}
+
+.hide{
+    display:none;
+}
+
+#button{
+    font-family: monospace, Helvetica, sans-serif;
+    float: right;
+    width: 100px;
+    padding: 10px;
+    margin-top: 50px;
+    background: RGB(225, 93, 68);
+    font-weight: bold;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+#button:hover{
+    background: RGB(221, 65, 36);
+}
+
+#getonthebeers{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

@@ -1,0 +1,66 @@
+body{
+    font-family: monospace, Helvetica, sans-serif;
+}
+
+#content{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.product_name{
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 30px;
+    overflow: auto;
+}
+
+.product_name p{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.product_image{
+    float: left;
+    width: 30%;
+}
+
+.product_add_cart{
+    float: right;
+    background-color: #ddd;
+    width: 20%;
+    height: 180px;
+    margin-right: 500px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#submitButton{
+    width: 150px;
+    padding: 10px;
+    background: RGB(225, 93, 68);
+    text-shadow: 2px 2px rgb(182, 66, 43);
+    font-weight: bold;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; 
+    cursor: pointer;
+}
+
+#submitButton:hover{
+    background-color: RGB(221, 65, 36);
+}
+
+#quan{
+    width: 12%;
+    height: 15%;
+}
+
+#pInfo{
+    font-weight: bold;
+}
+
+#pDescription{
+    width: 250px;
+    padding-left: 510px;
+}
+
